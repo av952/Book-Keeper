@@ -1,0 +1,112 @@
+.containerIndex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+/*Book*/
+.bookContainer{
+    height: 500px;
+    width: 250px;
+    word-wrap: break-word;
+}
+.image{
+    width: 200px;
+    text-align: center;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+
+/*CREATE*/
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+
+.btnForm {
+    width: fit-content;
+    margin: 0 auto;
+    border: none;
+    background-color: #4CAF50;
+    padding: 10px;
+    color: #FFFFFF  ;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.imgForm{
+    position: absolute;
+    top: 50px;
+    right: 450px;
+}
+input, textarea{
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid white;
+    width: 400px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+.completeForm{
+    display: flex;
+    width: 120px;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerForm h3{
+    margin: 0;
+    text-align: center;
+}
+
+
+/* NAVBAR */
+
+.containerNav{
+background-color: white;
+height: 50px;
+margin-bottom: 20px;
+color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.containerNav a{
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+
+/*Container view*/
+
+.containerView{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    gap: 50px;
+    justify-content: center;
+}
+.imgView{
+    width: 50vh;
+}
+.subContainerView{
+    width: 400px;
+    word-wrap: break-word;
+}
