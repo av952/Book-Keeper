@@ -13,7 +13,7 @@ function App() {
     <Store>
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Index/>}/>
+        <Route path='/book-keeper' element={<Index/>}/>
         <Route path='create' element={<Create/>}/>
         <Route path='view/:bookId' element={<View/>}/>
       </Routes>
