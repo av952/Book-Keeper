@@ -73,6 +73,7 @@ export const Create = () => {
         <div>
           <h3>Title</h3>
           <input
+          required={true}
             type="text"
             name="title"
             value={title}
@@ -82,6 +83,7 @@ export const Create = () => {
         <div>
           <h3>author</h3>
           <input
+          required={true}
             type="text"
             name="author"
             value={author}
@@ -90,7 +92,8 @@ export const Create = () => {
         </div>
         <div>
           <h3>cover</h3>
-          <input type="file" name="cover" onChange={handleChangeFile} />
+          <input
+          required={true} type="file" name="cover" onChange={handleChangeFile} />
         </div>
         <div>
           {!!cover ? (
@@ -108,6 +111,7 @@ export const Create = () => {
         <div>
           <h3>Introduction</h3>
           <textarea 
+          required={true}
           name="intro" 
           value={intro}
           onChange={handleChange}/>
@@ -131,6 +135,7 @@ export const Create = () => {
         <div>
           <h3>Review</h3>
           <textarea 
+          required={true}
           name="review" 
           value={review} 
           onChange={handleChange} />
