@@ -64,7 +64,7 @@ export const Create = () => {
     };
     //TODO: para mandar a crear  o registrar el libro
     store.createItem(newBook);
-    navigate("/");
+    navigate("/book-keeper");
   }
 
   return (
