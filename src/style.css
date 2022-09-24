@@ -6,6 +6,17 @@
     justify-content: center;
     color: white
 }
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 80vh;
+}
+.msg >*{
+    color: #4CAF50;
+    margin: 20px;
+}
 
 /*Book*/
 .bookContainer{
